@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="dark_gray_bg">#F5F5F5</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#3072F3</color>
+    <color name="jmui_jpush_blue">#2DD0CF</color>
+    <color name="menu_item_back_pres_color">#2DD0CF</color>
+    <color name="btn_send_textcolor">@color/white</color>
+    <color name="chat_text_color">#0B1816</color>
+</resources>
