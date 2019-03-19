@@ -23,6 +23,10 @@
             android:name=".im.JWebSocketClientService"
             android:enabled="true"
             android:exported="true"/>
+        <service android:name=".im.JWebSocketClientService$GrayInnerService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":gray"/>
 
         <activity android:name=".MainActivity"
             android:windowSoftInputMode="stateHidden">
