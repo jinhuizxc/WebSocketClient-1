@@ -225,8 +225,8 @@ public class JWebSocketClientService extends Service {
                 .setAutoCancel(true)
                 // 设置该通知优先级
                 .setPriority(Notification.PRIORITY_MAX)
-                .setSmallIcon(R.mipmap.ic_launcher)
-                .setContentTitle("昵称")
+                .setSmallIcon(R.drawable.icon)
+                .setContentTitle("服务器")
                 .setContentText(content)
                 .setVisibility(VISIBILITY_PUBLIC)
                 .setWhen(System.currentTimeMillis())
@@ -244,7 +244,7 @@ public class JWebSocketClientService extends Service {
     private Runnable heartBeatRunnable = new Runnable() {
         @Override
         public void run() {
-            Log.e("JWebSClientService", "心跳包检测websocket连接状态");
+            Log.e("JWebSocketClientService", "心跳包检测websocket连接状态");
             if (client != null) {
                 if (client.isClosed()) {
                     reconnectWs();
@@ -268,7 +268,7 @@ public class JWebSocketClientService extends Service {
             @Override
             public void run() {
                 try {
-                    Log.e("JWebSClientService", "开启重连");
+                    Log.e("JWebSocketClientService", "开启重连");
                     client.reconnectBlocking();
                 } catch (InterruptedException e) {
                     e.printStackTrace();

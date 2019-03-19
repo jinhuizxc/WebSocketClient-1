@@ -88,6 +88,7 @@ public class Adapter_ChatMessage extends BaseAdapter {
         holder.tv_content.setVisibility(View.VISIBLE);
         holder.tv_content.setText(content);
 
+
         //如果是自己发送才显示未读已读
         if (isMeSend == 1) {
             if (isRead == 0) {
@@ -99,6 +100,9 @@ public class Adapter_ChatMessage extends BaseAdapter {
             } else {
                 holder.tv_isRead.setText("");
             }
+        }else{
+            holder.tv_display_name.setVisibility(View.VISIBLE);
+            holder.tv_display_name.setText("服务器");
         }
 
         return view;

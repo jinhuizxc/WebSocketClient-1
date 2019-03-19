@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:maxWidth="190dp"
                 android:singleLine="true"
-                android:text="昵称"
+                android:text="服务器"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp" />
 
