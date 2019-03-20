@@ -12,13 +12,13 @@ Android端websocket即时通讯demo
 
 #### 效果图
 <div>
-<img src="https://github.com/yangxch/WebSocketClientDemo/raw/master/screenshot/chatntf.jpg" width="35%" height="35%">
-<img src="https://github.com/yangxch/WebSocketClientDemo/raw/master/screenshot/load.jpg" width="35%" height="35%">
+<img src="https://github.com/yangxch/WebSocketClient/raw/master/screenshot/chatntf.jpg" width="35%" height="35%">
+<img src="https://github.com/yangxch/WebSocketClient/raw/master/screenshot/load.jpg" width="35%" height="35%">
   <br><br>
-<img src="https://github.com/yangxch/WebSocketClientDemo/raw/master/screenshot/load.jpg" width="35%" height="35%">
-<img src="https://github.com/yangxch/WebSocketClientDemo/raw/master/screenshot/show.jpg" width="35%" height="35%">
+<img src="https://github.com/yangxch/WebSocketClient/raw/master/screenshot/load.jpg" width="35%" height="35%">
+<img src="https://github.com/yangxch/WebSocketClient/raw/master/screenshot/show.jpg" width="35%" height="35%">
 </div>
 
 ***
 更多技术干货，欢迎关注我的公众号：ChaoYoung
-<br><img src="https://github.com/yangxch/WebSocketClientDemo/raw/master/screenshot/qrcode_chaoyoung.jpg" width="20%" height="20%">
+<br><img src="https://github.com/yangxch/WebSocketClient/raw/master/screenshot/qrcode_chaoyoung.jpg" width="20%" height="20%">
